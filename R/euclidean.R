@@ -17,7 +17,7 @@ euclidean <- function(a, b){
   if(!a == round(a)) stop("first argument is not an integer")
   if(!is.vector(b))  stop("second argument needs to be an integer!")
   if(length(b) != 1) stop("second argument needs to be an integer")
-  if(!is.numeric(b)) stop("first argument needs to be an integer")
+  if(!is.numeric(b)) stop("second argument needs to be an integer")
   if(!b == round(b)) stop("second argument is not an integer")
   
   a <- abs(a)
