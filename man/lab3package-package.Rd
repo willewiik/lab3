@@ -21,7 +21,6 @@ Maintainer: \packageMaintainer{lab3package}
 }
 \references{
 Reference wikipedia pages
-
 }
 \keyword{ package }
 \seealso{
