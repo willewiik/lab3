@@ -1,0 +1,11 @@
+Package: lab3package
+Type: Package
+Title: Euclidean Algorithm and Dijkstra's Shortest Path
+Version: 1.0
+Authors@R: c(
+    person("Duc", "Tran", email = "ductr388@student.liu.se", role = c("cre","aut")),
+    person("William", "Wiik", email = "wilwi856@student.liu.se", role = "aut"))
+Description: Implementations of two algorithms:The Euclidean Algorithm to find the greatest common divisor (GCD) of two integers. Dijkstra's Shortest Path Algorithm for finding the shortest path in a graph.
+Encoding: UTF-8
+License: GPL-3 + file LICENSE
+Depends: R (>= 3.5.0)
