@@ -18,6 +18,6 @@ Returns a vector with shortest distance from starting node to all other nodes.
 Calculates the shortest distance from initial node to all other nodes using dijkstra's algorithm.
 }
 \details{
-Further information on the dijkstras algorithm can be found at Wikipedia 
-(https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm).
+Further information on the dijkstras algorithm can be found at 
+\href{https://en.wikipedia.org/wiki/Dijkstra\%27s_algorithm}{Wikipedia}
 }

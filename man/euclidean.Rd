@@ -7,17 +7,17 @@
 euclidean(a, b)
 }
 \arguments{
-\item{a}{A scalar.}
+\item{a}{A integer.}
 
-\item{b}{A scalar.}
+\item{b}{A integer.}
 }
 \value{
-Returns a scalar of the greatest common divisor.
+Returns a integer of the greatest common divisor.
 }
 \description{
-Calculates the greatest common divisor if two numbers.
+Calculates the greatest common divisor between two integers.
 }
 \details{
-Further information on the euclidian algorithm can be found at Wikipedia 
-(https://en.wikipedia.org/wiki/Euclidean_algorithm).
+Further information on the euclidian algorithm can be found at 
+\href{https://en.wikipedia.org/wiki/Euclidean_algorithm}{Wikipedia}
 }

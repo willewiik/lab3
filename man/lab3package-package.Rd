@@ -1,33 +1,38 @@
-\name{lab3package-package}
-\alias{lab3package-package}
+\name{lab3package}
 \alias{lab3package}
 \docType{package}
-\title{
-\packageTitle{lab3package}
-}
+\title{Lab 3 solution from ductr388 and wilwi856}
 \description{
-\packageDescription{lab3package}
+This package contains two functions used to solve lab 3 in the course 732A94.
+
+The functions implemented are euclidean algorithm and dijkstra's algorithm 
 }
 \details{
-The DESCRIPTION file:
-\packageDESCRIPTION{lab3package}
-\packageIndices{lab3package}
-An overview of how to use the package, including the most important functions
+Package: lab3package
+
+Type: Package
+
+Version: 1.0.0
+
+Date: 2023-09-14
+
+Licence: GPL (>=3)
+
+
 }
 \author{
-\packageAuthor{lab3package}
 
-Maintainer: \packageMaintainer{lab3package}
+Duc Tran Maintainer: <ductr388@student.liu.se> 
+
+William Wiik Creator: <wilwi856@student.liu.se>
 }
 \references{
-Reference wikipedia pages
+Information about the euclidean algorithm can be found 
+\href{https://en.wikipedia.org/wiki/Euclidean_algorithm}{here}.
+
+Information about the dijkstra's algorithm can be found 
+\href{https://en.wikipedia.org/wiki/Dijkstra\%27s_algorithm}{here}.
 }
-\keyword{ package }
-\seealso{
-Removed see also
-}
-\examples{
-print("Example text")
-}
+
 
 
