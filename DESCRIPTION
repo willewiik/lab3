@@ -9,4 +9,6 @@ Description: Implementations of two algorithms:The Euclidean Algorithm to find t
 Encoding: UTF-8
 License: GPL-3 + file LICENSE
 Depends: R (>= 3.5.0)
+Suggests: testthat (>= 3.0.0)
+Config/testthat/edition: 3
 RoxygenNote: 7.2.3
