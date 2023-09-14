@@ -3,7 +3,7 @@
 \docType{data}
 \name{wiki_graph}
 \alias{wiki_graph}
-\title{Example data for djikstra function}
+\title{Example data for dijkstra's function}
 \format{
 A data frame with 18 rows and 3 variables:
 \describe{
@@ -17,5 +17,10 @@ wiki_graph
 }
 \description{
 A dataset containing the weight between two nodes
+}
+\details{
+Data set is used for dijkstra's function, more information about dijkstras algorithm 
+can be found at: 
+\href{https://en.wikipedia.org/wiki/Dijkstra\%27s_algorithm}{Wikipedia}
 }
 \keyword{datasets}

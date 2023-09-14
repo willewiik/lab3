@@ -1,4 +1,4 @@
-#' Example data for djikstra function
+#' Example data for dijkstra's function
 #'
 #' A dataset containing the weight between two nodes
 #'
@@ -8,6 +8,12 @@
 #'   \item{v2}{end node}
 #'   \item{w}{weight between starting and end node}
 #' }
+#' 
+#' @details
+#' Data set is used for dijkstra's function, more information about dijkstra's algorithm 
+#' can be found at: 
+#' \href{https://en.wikipedia.org/wiki/Dijkstra\%27s_algorithm}{Wikipedia}	 
+
 
 wiki_graph <-
   data.frame(v1=c(1,1,1,2,2,2,3,3,3,3,4,4,4,5,5,6,6,6),
