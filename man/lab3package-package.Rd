@@ -9,11 +9,10 @@
 \packageDescription{lab3package}
 }
 \details{
-
 The DESCRIPTION file:
 \packageDESCRIPTION{lab3package}
 \packageIndices{lab3package}
-~~ An overview of how to use the package, including the most important functions ~~
+An overview of how to use the package, including the most important functions
 }
 \author{
 \packageAuthor{lab3package}
@@ -21,14 +20,15 @@ The DESCRIPTION file:
 Maintainer: \packageMaintainer{lab3package}
 }
 \references{
-~~ Literature or other references for background information ~~
+Reference wikipedia pages
+
 }
-~~ Optionally other standard keywords, one per line, from file KEYWORDS in the R documentation directory ~~
 \keyword{ package }
 \seealso{
-~~ Optional links to other man pages, e.g. ~~
-~~ \code{\link[<pkg>:<pkg>-package]{<pkg>}} ~~
+Removed see also
 }
 \examples{
-~~ simple examples of the most important functions ~~
+print("Example text")
 }
+
+
