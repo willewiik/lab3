@@ -11,12 +11,12 @@
 #' @export
 
 euclidean <- function(a, b){
-  if(!is.vector(a))  stop("first argument needs to be a single integer")
-  if(length(a) != 1) stop("first argument needs to be a single integer")
-  if(!a == as.integer(a)) stop("first argument is not an integer")
-  if(!is.vector(b))  stop("second argument needs to be a single integer")
-  if(length(b) != 1) stop("second argument needs to be a single integer")
-  if(!b == as.integer(b)) stop("second argument is not an integer")
+  if(!is.vector(a))  stop("first argument needs to be a numeric scalar")
+  if(length(a) != 1) stop("first argument needs to be a numeric scalar")
+  if(!is.numeric(a)) stop("first argument is not an numeric")
+  if(!is.vector(b))  stop("second argument needs to be a numeric scalar")
+  if(length(b) != 1) stop("second argument needs to be a numeric scalar")
+  if(!is.numeric(b)) stop("second argument is not an numeric")
   
   a <- abs(a)
   b <- abs(b)

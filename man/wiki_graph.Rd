@@ -19,7 +19,7 @@ wiki_graph
 A dataset containing the weight between two nodes
 }
 \details{
-Data set is used for dijkstra's function, more information about dijkstras algorithm 
+Data set is used for dijkstra's function, more information about dijkstra's algorithm 
 can be found at: 
 \href{https://en.wikipedia.org/wiki/Dijkstra\%27s_algorithm}{Wikipedia}
 }
